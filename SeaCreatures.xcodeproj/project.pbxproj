@@ -12,6 +12,8 @@
 		644FAF932BE1401F003B82D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FAF922BE1401F003B82D9 /* ContentView.swift */; };
 		644FAF952BE14021003B82D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644FAF942BE14021003B82D9 /* Assets.xcassets */; };
 		644FAF982BE14021003B82D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644FAF972BE14021003B82D9 /* Preview Assets.xcassets */; };
+		649857FF2BE2CD74001813D0 /* SeaCreatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649857FE2BE2CD74001813D0 /* SeaCreatureModel.swift */; };
+		649858042BE2D734001813D0 /* SeaCreatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649858032BE2D734001813D0 /* SeaCreatureDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		644FAF942BE14021003B82D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644FAF972BE14021003B82D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		644FAF992BE14021003B82D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649857FE2BE2CD74001813D0 /* SeaCreatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureModel.swift; sourceTree = "<group>"; };
+		649858032BE2D734001813D0 /* SeaCreatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				644FAF902BE1401F003B82D9 /* SeaCreaturesApp.swift */,
 				644FAF922BE1401F003B82D9 /* ContentView.swift */,
+				649858002BE2D4B8001813D0 /* Views */,
+				649857FD2BE2CD5D001813D0 /* Models */,
 				644FAF942BE14021003B82D9 /* Assets.xcassets */,
 				644FAF992BE14021003B82D9 /* Info.plist */,
 				644FAF962BE14021003B82D9 /* Preview Content */,
@@ -79,6 +85,22 @@
 				644FAF972BE14021003B82D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		649857FD2BE2CD5D001813D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				649857FE2BE2CD74001813D0 /* SeaCreatureModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		649858002BE2D4B8001813D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				649858032BE2D734001813D0 /* SeaCreatureDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649858042BE2D734001813D0 /* SeaCreatureDetailView.swift in Sources */,
 				644FAF932BE1401F003B82D9 /* ContentView.swift in Sources */,
+				649857FF2BE2CD74001813D0 /* SeaCreatureModel.swift in Sources */,
 				644FAF912BE1401F003B82D9 /* SeaCreaturesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
